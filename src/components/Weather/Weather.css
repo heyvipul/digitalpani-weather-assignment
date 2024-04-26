@@ -84,7 +84,7 @@
 }
 
 
-@media (max-width: 900px) {
+@media (max-width: 950px) {
     .main-div {
         width: 50%; 
         margin-left: -25%; 
@@ -100,4 +100,17 @@
         position: relative;
         border-radius:0px;
     }
+    .main-div > .second-div > h1{
+        font-size: 30px;
+    }
+    .main-div > .second-div > p{
+        font-size: 30px;
+    }
+    .main-div > .third-div p{
+        font-size: 23px;
+    }
+    .main-div > .last-div{
+        margin-top: -10px;
+    }
+
 }
