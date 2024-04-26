@@ -1,6 +1,6 @@
 The Weather App, built using the OpenWeather API and React, offers users a simple yet effective way to check the current weather and forecasts for the next three days. With its clean design and fast performance, users can quickly access accurate weather information without any unnecessary clutter. Powered by React, the app provides a responsive and intuitive user experience.
 
-![image](https://github.com/heyvipul/digitalpani-weather-assignment/assets/131906819/be8f115e-22d5-4fc5-b6d3-56f4da54c494)
+![image](https://github.com/heyvipul/digitalpani-weather-assignment/assets/131906819/85e7b387-22db-4d20-bb4b-7225d928d3ec)
 
 ![image](https://github.com/heyvipul/digitalpani-weather-assignment/assets/131906819/d02cb784-b708-41cc-b871-99a8313e32a2)
 
