@@ -1,0 +1,103 @@
+.main-div{
+    width: 35%;
+    height: 100vh;
+    /* border: 1px solid red; */
+    left: 50%;
+    position: absolute;
+    margin-left: -17.5%;
+    background-color: rgb(135,141,216);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 15px;
+}
+
+.loading{
+    text-align: center;
+}
+
+.main-div > .first-div{
+    width: fit-content;
+    margin: auto;
+    align-items: center;
+}
+.main-div > .first-div input{
+    margin-top: 20px;
+    width: 250px;
+    padding: 8px 15px;
+    border-radius: 30px;
+    border: none;
+    margin-right: 5px;
+    font-size: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.main-div > .first-div button{
+    margin-top: 20px;
+    width: 70px;
+    border: none;
+    padding: 7px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.main-div > .first-div button:hover{
+    font-weight: bold;
+}
+
+.main-div > .second-div{
+    align-items: center;
+    text-align: center;
+    /* margin-top: 20px; */
+}
+.main-div > .second-div > h1{
+    font-size: 50px;
+    color: white;
+    margin-top: -20px;
+}
+.main-div > .second-div > p{
+    font-size: 40px;
+    color: white;
+    /* margin-top: -45px; */
+    text-shadow: 2px 2px purple;
+}
+.main-div > .third-div{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+.main-div > .third-div > p{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px black;
+}
+.main-div > .last-div{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.main-div > .last-div img{
+    width: 110px;
+}
+
+
+@media (max-width: 900px) {
+    .main-div {
+        width: 50%; 
+        margin-left: -25%; 
+        left: 50%;
+        position: relative;
+    }
+}
+@media (max-width: 500px) {
+    .main-div {
+        width: 100%; 
+        margin-left: -50%; 
+        left: 50%;
+        position: relative;
+        border-radius:0px;
+    }
+}
