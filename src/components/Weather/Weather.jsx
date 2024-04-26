@@ -68,6 +68,7 @@ const Weather = () => {
                     </>
 
                 }
+                <br />
                 {
                     loading ? "" : <>
                         <div className='last-div'>
