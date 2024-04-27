@@ -40,7 +40,7 @@ const Weather = () => {
            const selectedElements = [
             data.list[0], // 0th element
             data.list[10], // 10th element
-            data.list[20] // 20th element
+            data.list[15] // 20th element
           ];
            setForecast(selectedElements)
         } catch (error) {
