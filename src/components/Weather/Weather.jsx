@@ -55,7 +55,7 @@ const Weather = () => {
                     <button onClick={()=>{handleSearch(),handleForecast()}}>Search</button>
                 </div>
                 {
-                    loading ? <h2 className='loading'>loading....</h2> : <>
+                    loading ? <h2 className='loading'>Search City....</h2> : <>
                         <div className='second-div'>
                             <img src={weatherImages[cityData.weather[0].description] || weatherImages['default']} alt="" />
                             <h1>{cityData.name}: <span style={{ color: "wheat" }}>{cityData.main.temp} °C</span></h1>
