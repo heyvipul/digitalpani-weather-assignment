@@ -36,15 +36,17 @@ const Weather = () => {
         try {
            const response = await fetch(`https://api.openweathermap.org/data/2.5/forecast?q=${search}&appid=d14ff0c3233af2bb2350b344e22aa0e3&units=metric`) 
            const data = await response.json();
-           setForecast(data.list.slice(0, 3))
+           console.log(data);
+           const selectedElements = [
+            data.list[0], // 0th element
+            data.list[10], // 10th element
+            data.list[20] // 20th element
+          ];
+           setForecast(selectedElements)
         } catch (error) {
             console.log(error);
         }
     }
-
-    // console.log(search);
-    // console.log(forecast);
-    // console.log(cityData);
 
 
     return (

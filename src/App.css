@@ -1,0 +1,15 @@
+body {
+    position: relative; /* Ensure the body is positioned relative for absolute positioning of pseudo-element */
+}
+
+/* BlurBackground.css */
+.blur-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://img.freepik.com/free-vector/sky-background-video-conferencing_23-2148639325.jpg");
+    filter: blur(5px); /* Adjust the blur intensity as needed */
+    z-index: -1;
+  }

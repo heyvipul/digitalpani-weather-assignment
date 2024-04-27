@@ -5,6 +5,7 @@ function App() {
 
   return (
     <>
+     <div className="blur-background"></div>
      <Weather/>
     </>
   )
